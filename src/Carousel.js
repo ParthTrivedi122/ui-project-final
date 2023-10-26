@@ -5,16 +5,13 @@ const Carousel = (props) => {
   const [activeSlide, setActiveSlide] = useState(0);
   const slides = [
     {
-      image: props.img1,
-      caption: "Image 1",
+      image: props.img1
     },
     {
-      image: props.img2,
-      caption: "Image 2",
+      image: props.img2
     },
     {
-      image: props.img3,
-      caption: "Image 3",
+      image: props.img3
     },
     // Add more slides as needed
   ];

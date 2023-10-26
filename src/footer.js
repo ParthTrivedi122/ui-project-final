@@ -25,7 +25,7 @@ import { Box } from "@mui/material";
               About Us
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              We are XYZ company, dedicated to providing the best service to our
+              We are Breakpoints in Material Ui company, dedicated to providing the best service to our
               customers.
             </Typography>
           </Grid>

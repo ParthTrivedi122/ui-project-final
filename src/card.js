@@ -26,7 +26,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function App({img}) {
+export default function App({img,title,content}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -46,7 +46,8 @@ export default function App({img}) {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
+        title={title}
+        style={{textAlign:"center"}}
         subheader="September 14, 2016"
       />
       <CardMedia
@@ -54,12 +55,11 @@ export default function App({img}) {
        
         image={img}
         alt="Paella dish"
+        style={{height:"400px"}}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+          {content}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
