@@ -34,13 +34,13 @@ export default function App({img}) {
   };
 
   return (
-    <Card sx={{ maxWidth: 300}} style={{"marign":"10px"}}>
+    <Card sx={{ maxWidth: 300}} style={{"marign":"10px","borderRadius":"20px"}}>
       <CardHeader
-        avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
-          </Avatar>
-        }
+        // avatar={
+        //   <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+        //     R
+        //   </Avatar>
+        // }
         action={
           <IconButton aria-label="settings">
             <MoreVertIcon />

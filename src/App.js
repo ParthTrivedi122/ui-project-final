@@ -16,14 +16,12 @@ const App = () => {
       <div style={{
         textAlign: "center",
         fontSize: "40px",
-        fontFamily: "HandwritingFont, cursive",
+        fontFamily: "Times new roman",
         textTransform: "uppercase",
         color: "#333",
         fontWeight: "bold",
-        textDecoration: "underline",
+        
         padding: "10px",
-        backgroundColor: "#FFD700",
-        boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.2)",
         borderRadius: "8px",
         margin: "20px auto",
         width: "50%",
@@ -56,14 +54,12 @@ const App = () => {
       <div style={{
         textAlign: "center",
         fontSize: "40px",
-        fontFamily: "HandwritingFont, cursive",
+        fontFamily: "Times new roman",
         textTransform: "uppercase",
         color: "#333",
         fontWeight: "bold",
-        textDecoration: "underline",
+        
         padding: "10px",
-        backgroundColor: "#FFD700",
-        boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.2)",
         borderRadius: "8px",
         margin: "20px auto",
         width: "50%",
@@ -100,14 +96,36 @@ const App = () => {
         textTransform: "uppercase",
         color: "#333",
         fontWeight: "bold",
-        textDecoration: "underline",
+        
         padding: "10px",
         borderRadius: "8px",
         margin: "20px auto",
         width: "50%",
       }}>Special Editions</div>
+      <div style={{ margin: "0 20px" }}>
+        <Grid container spacing={4}>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Card />
+          </Grid>
+          
+        </Grid>
+      </div>
 
-      <hr style={{ "width": "90%" }} /><br />
       <div style={{"marginTop":"20px"}}>
       <Footer/>
       </div>
