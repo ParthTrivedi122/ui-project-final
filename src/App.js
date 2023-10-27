@@ -93,7 +93,6 @@ const App = () => {
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
             <Card img={"img/image12.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
           </Grid>
-          
         </Grid>
       </div>
       <div style={{
@@ -113,24 +112,23 @@ const App = () => {
       <div style={{ margin: "0 20px" }}>
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image13.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image13.jpg"} title={"Anayna"} content={" Pink Ethnic Motifs Printed Tiered Pure Cotton A-Line Midi Dress"}/>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image14.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image14.jpg"} title={"Ishin"} content={"Off White Ethnic Motifs A-Line Dress"}/>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image15.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image15.jpg"} title={"Sangria"} content={"Orange Ethnic Motifs Printed Cotton Wrap Ethnic Dress"}/>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image16.jfif"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image16.jpg"} title={"Sangria"} content={"Floral Printed Puffed Sleeves Cotton Wrap Midi Ethnic Dress"}/>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image17.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image17.jpg"} title={"WROGN"} content={"Men Coffee Brown Solid Slim Fit Lightweight Tailored Jacket"}/>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-            <Card img={"img/image18.jpg"} title={"SASSAFRAS"} content={"Men & Women Fluorescent Green Blessed Print V Neck shirt"}/>
+            <Card img={"img/image18.jpg"} title={"The Indian Garage Co"} content={"Men White & Teal Blue Slim Fit Striped Casual Shirt"}/>
           </Grid>
-          
         </Grid>
       </div>
 

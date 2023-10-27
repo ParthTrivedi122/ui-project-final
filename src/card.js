@@ -47,8 +47,9 @@ export default function App({img,title,content}) {
           </IconButton>
         }
         title={title}
-        style={{textAlign:"center"}}
+        style={{textAlign:"center",height:"100px"}}
         subheader="September 14, 2016"
+        
       />
       <CardMedia
         component="img"
@@ -58,7 +59,7 @@ export default function App({img,title,content}) {
         style={{height:"400px"}}
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" style={{height:"40px"}}>
           {content}
         </Typography>
       </CardContent>
